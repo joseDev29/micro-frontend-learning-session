@@ -1,5 +1,5 @@
 <nav
-  class="w-full  items-center justify-between flex  p-2 sticky nav_container"
+  class="w-full items-center justify-between flex p-2 sticky top-0 nav_container"
 >
   <a href="/" rel="noreferrer">
     <svg

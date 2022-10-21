@@ -10,7 +10,7 @@
 </script>
 
 <div
-  class="bg-white items-center justify-between w-full flex rounded-full shadow-lg p-2  sticky search-bar"
+  class="bg-white items-center justify-between w-full flex rounded-full shadow-lg p-2 sticky search-bar"
 >
   <button on:click={clearSearch}>
     <div class="p-2 mr-1 rounded-full hover:bg-gray-100 cursor-pointer">
