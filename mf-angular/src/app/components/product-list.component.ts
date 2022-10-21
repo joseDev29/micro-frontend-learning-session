@@ -8,7 +8,7 @@ import { ProductService } from '../services/products.service';
   template: `
     <div class="bg-white">
       <div
-        class="mx-auto max-w-2xl py-16 px-4 sm:py-24 sm:px-6 lg:max-w-7xl lg:px-8"
+        class="mx-auto max-w-2xl pt-8 pb-16 px-4 sm:px-6 lg:max-w-7xl lg:px-8"
       >
         <h2 class="text-2xl font-semibold mb-8">Products</h2>
         <div
