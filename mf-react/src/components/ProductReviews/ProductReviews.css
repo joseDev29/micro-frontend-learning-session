@@ -1,0 +1,12 @@
+.product-review__elem:after {
+  content: " ";
+  display: block;
+  margin: 24px 0;
+  height: 1px;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.product-review__elem:last-child:after {
+  content: unset;
+}
