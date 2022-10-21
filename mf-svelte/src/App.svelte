@@ -18,9 +18,12 @@
   }
 
   const clearSearch = () => {
-    visible = false
     search = ''
     result = []
+  }
+
+  const closeDialog = () => {
+    visible = false
   }
 </script>
 
@@ -28,7 +31,7 @@
   <SearchBar bind:search {searchProduct} {clearSearch} />
 </Navbar>
 
-<Modal {visible} {clearSearch}>
+<Modal {visible} {closeDialog}>
   <ul class=" divide-y divide-gray-200 dark:divide-gray-700">
     {#each result as res}
       <li class="pb-3 sm:pb-4">
