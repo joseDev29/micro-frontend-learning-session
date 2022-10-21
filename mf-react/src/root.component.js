@@ -5,7 +5,7 @@ export default function Root(props) {
   const productId = window.location.pathname.split("/").pop();
 
   return (
-    <div className="container mx-auto">
+    <div className="container mx-auto my-6">
       <App productId={productId} />
     </div>
   );
