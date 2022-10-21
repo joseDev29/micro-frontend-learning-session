@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { ProductListComponent } from './components/product-list.component';
 import { ProductService } from './services/products.service';
 import { ProductCardComponent } from './components/product-card.component';
+import { AngularIconComponent } from './components/angular-icon.component';
 
 import { CutTextPipe } from './pipes/cut-text.pipe';
 
@@ -15,6 +16,7 @@ import { CutTextPipe } from './pipes/cut-text.pipe';
     AppComponent,
     ProductListComponent,
     ProductCardComponent,
+    AngularIconComponent,
   ],
   imports: [BrowserModule, HttpClientModule],
   providers: [ProductService],

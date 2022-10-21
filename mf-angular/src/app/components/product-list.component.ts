@@ -10,7 +10,10 @@ import { ProductService } from '../services/products.service';
       <div
         class="mx-auto max-w-2xl pt-8 pb-16 px-4 sm:px-6 lg:max-w-7xl lg:px-8"
       >
-        <h2 class="text-2xl font-semibold mb-8">Products</h2>
+        <h2 class="flex text-2xl font-semibold mb-8 items-center">
+          <app-angular-icon class="mr-4"></app-angular-icon>
+          Products
+        </h2>
         <div
           class="grid grid-cols-1 gap-y-10 gap-x-6 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 xl:gap-x-8 place-items-center"
         >
