@@ -2,10 +2,11 @@ import "./index.css";
 import App from "./App/App";
 
 export default function Root(props) {
+  const productId = window.location.pathname.split("/").pop();
+
   return (
-    <>
-      <h1>React App</h1>
-      <App />
-    </>
+    <div className="container mx-auto">
+      <App productId={productId} />
+    </div>
   );
 }
